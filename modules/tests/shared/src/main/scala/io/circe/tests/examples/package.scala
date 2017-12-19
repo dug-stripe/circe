@@ -12,7 +12,7 @@ package object examples extends AllInstances with ArbitraryInstances with Missin
     "glossary" -> Json.obj(
       "title" -> Json.fromString("example glossary"),
       "GlossDiv" -> Json.obj(
-        "title" -> Json.fromString("S"),
+        "name" -> Json.fromString("y"),
         "GlossList" -> Json.obj(
           "GlossEntry" -> Json.obj(
             "ID" -> Json.fromString("SGML"),
